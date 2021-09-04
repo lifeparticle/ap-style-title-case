@@ -1,0 +1,32 @@
+{
+	"name": "@lifeparticle/ap-style-title-case",
+	"version": "1.0.0",
+	"description": "ap-style-title-case",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lifeparticle/ap-style-title-case.git"
+	},
+	"keywords": [
+		"titlecase",
+		"capitalization",
+		"titles",
+		"title-case",
+		"language",
+		"english",
+		"grammar",
+		"capitalisation"
+	],
+	"author": "lifeparticle",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lifeparticle/ap-style-title-case/issues"
+	},
+	"homepage": "https://github.com/lifeparticle/ap-style-title-case#readme",
+	"devDependencies": {
+		"jest": "^27.1.0"
+	}
+}
