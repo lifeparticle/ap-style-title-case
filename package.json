@@ -1,7 +1,7 @@
 {
 	"name": "@lifeparticle/ap-style-title-case",
 	"version": "1.0.0",
-	"description": "ap-style-title-case",
+	"description": "AP style title case",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest"
