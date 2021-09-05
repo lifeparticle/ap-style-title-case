@@ -1,6 +1,6 @@
 {
 	"name": "@lifeparticle/ap-style-title-case",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"description": "AP style title case",
 	"main": "index.js",
 	"scripts": {

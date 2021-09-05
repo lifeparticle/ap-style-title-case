@@ -8,8 +8,24 @@ npm i @lifeparticle/ap-style-title-case
 
 # Use
 
+## React
+
 ```shell
-TODO
+import apCase from "@lifeparticle/ap-style-title-case";
+import "./App.css";
+import { useState } from "react";
+
+function App() {
+	const [title, setTitle] = useState("");
+	return (
+		<div>
+			<input type="text" onChange={(e) => setTitle(apCase(e.target.value))} />
+			<input type="text" value={title} />
+		</div>
+	);
+}
+
+export default App;
 ```
 
 # Test
@@ -18,6 +34,18 @@ TODO
 npm i --save-dev jest
 npm test
 ```
+
+# Algorithm
+
+1. Capitalize first word of the title
+2. Capitalize last word of the title
+3. Don't capitalize these words
+
+```
+"a","an","and","as","at","but","by","for","if","in","nor","of","off","on","or","per","so","the","to","up","via","yet"
+```
+
+4. Capitalize other words
 
 # Resources
 
