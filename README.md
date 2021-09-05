@@ -2,17 +2,15 @@ This project is inspired by [ap-style-title-case](https://github.com/words/ap-st
 
 # Installation
 
-```
-npm i
+```shell
+npm i @lifeparticle/ap-style-title-case
 ```
 
-# NPM package
+# Testing
 
-```
+```shell
 npm i --save-dev jest
-npm init
-npm login
-npm publish --access=public
+npm test
 ```
 
 # Resources
