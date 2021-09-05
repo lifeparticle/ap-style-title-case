@@ -1,12 +1,18 @@
 This project is inspired by [ap-style-title-case](https://github.com/words/ap-style-title-case).
 
-# Installation
+# Install
 
 ```shell
 npm i @lifeparticle/ap-style-title-case
 ```
 
-# Testing
+# Use
+
+```shell
+TODO
+```
+
+# Test
 
 ```shell
 npm i --save-dev jest
