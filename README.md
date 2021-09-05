@@ -10,7 +10,7 @@ npm i @lifeparticle/ap-style-title-case
 
 ## React
 
-```shell
+```js
 import apCase from "@lifeparticle/ap-style-title-case";
 import "./App.css";
 import { useState } from "react";

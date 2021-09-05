@@ -1,6 +1,6 @@
 {
 	"name": "@lifeparticle/ap-style-title-case",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"description": "AP style title case",
 	"main": "index.js",
 	"scripts": {
@@ -11,6 +11,7 @@
 		"url": "git+https://github.com/lifeparticle/ap-style-title-case.git"
 	},
 	"keywords": [
+		"react",
 		"titlecase",
 		"capitalization",
 		"titles",
