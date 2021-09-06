@@ -38,7 +38,7 @@ function convert(words) {
 	words[lastIndex] = capitalizeFirstLetter(words[lastIndex]);
 	let mid = [];
 
-	if (words.length > 3) {
+	if (words.length >= 3) {
 		mid = words.slice(1, lastIndex).map((word) => {
 			return lower_case_words.includes(word.toLowerCase())
 				? word.toLowerCase()
@@ -46,7 +46,7 @@ function convert(words) {
 		});
 	}
 
-	return words.length > 3
+	return words.length >= 3
 		? `${words[0]} ${mid.join(" ")} ${words[lastIndex]}`
 		: `${words[0]} ${words[lastIndex]}`;
 }

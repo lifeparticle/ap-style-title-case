@@ -10,6 +10,7 @@ test("convert title", () => {
 
 	var patterns = [
 		["this is a test", "This Is a Test"],
+		["this is a ", "This Is A"],
 		[
 			"why sunless tanning is A hot trend",
 			"Why Sunless Tanning Is a Hot Trend",
