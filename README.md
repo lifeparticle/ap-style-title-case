@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/lifeparticle/ap-style-title-case/actions/workflows/build.yml/badge.svg)](https://github.com/lifeparticle/ap-style-title-case/actions/workflows/build.yml)
+
 This project is inspired by [ap-style-title-case](https://github.com/words/ap-style-title-case).
 
 # Install
